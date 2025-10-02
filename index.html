@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OpenAI Chatbox</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="chatbot-toggler">
+    <span>💬</span>
+  </div>
+  <div class="chatbox">
+    <div class="chat-header">
+      <h3>OpenAI Assistant</h3>
+      <button class="close-btn">&times;</button>
+    </div>
+    <div class="chat-messages">
+      <li class="chat incoming">
+        <p>Hi! I'm your AI assistant. How can I help you today?</p>
+      </li>
+    </div>
+    <div class="chat-input">
+      <textarea placeholder="Type a message..." rows="1"></textarea>
+      <span class="send-btn">Send</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>   
